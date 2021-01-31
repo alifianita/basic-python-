@@ -28,7 +28,7 @@ server = smtplib.SMTP('smtp.gmail.com: 587')
 
 server.starttls()
 
-server.login(msg['From'], "Blackpinkinyourarea")
+server.login(msg['From'], ".....")
 
 server.sendmail(sender,receiver, msg.as_string())
 
